@@ -109,15 +109,15 @@ public class Main {
                 contact += runIn.displayContacts();
             }
         }
+        questions.setPerson(userInfo);
 
         //Displaying Information
-        System.out.println("****** Contact Tracing Report ******");
+        System.out.println("\n****** Contact Tracing Report ******");
         System.out.println(userInfo.displayInfo());
-        System.out.println("\n");
-        System.out.println("**          Symptoms:");
+        System.out.println("\n**          Symptoms:");
+        questions.presentPatient();
         System.out.println(symptoms);
-        System.out.println("\n");
-        System.out.println("**          Contacts:");
+        System.out.println("\n**          Contacts:");
         System.out.println(contact);
     }
 }

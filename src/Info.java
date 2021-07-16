@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Info {
     private String name, email, phoneNum, city, state;
 
